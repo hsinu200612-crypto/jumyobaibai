@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta>
+
+    </head>
+    <body>
+        <head>
+            <meta charset="utf-8">
+            <meta name="discription" content="profile">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>プロフィールを入力して下さい</title>
+            <link rel="stylesheet" href="css/normalize.css">
+            <link rel="stylesheet" href="css/style.css">
+        </head>
+        <main>
+            <head>
+                <h1>寿命バイバイ</h1>
+            </head>
+            <section>
+                <p>プロフィールを設定であなたの寿命を測定します</p>
+            </section>
+            <h2>プロフィール入力</h2>
+            <form action="program.php" method="post">
+                <div class="profile">
+                    <dl>
+                        <dt><label for="your-name">氏名<span class="must">必須</span></label></dt>
+                        <dd><input type="text" size="30" name="your-name" required placeholder="下重　陽太" id="your-name"></dd>
+                        <dt><label for="kana">ふりがな<span class="must">必須</span></label></dt>
+                        <dd><input type="text" size="30" name="kana" required placeholder="しもじゅう　ようた" id="kana"></dd>
+
+                        <dt><label for="email">メールアドレス<span class="must">必須</span></label></dt>
+                        <dd><input type="email" size="30" name="email" required placeholder="kani@xxx.com" id="email"></dd>
+
+                        <dt><label for="tel">電話番号</label></dt>
+                        <dd><input type="tel" size="30" name="tel" placeholder="000-1234-5678" id="tel"></dd>
+                    </dl>
+                </div>
+                <p><a href="buy">送信</a></p>
+            </form>
+            <img src="img/koukoku_1.png" alt="広告" width="100%">
+        </main>
+    </body>
+</html>

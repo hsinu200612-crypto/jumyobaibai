@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+body{
+    background-color: #000;
+    color: #fff;
+    font-size: 4vw;
+}
+
+h1{
+    text-align: center;
+    color: #f00;
+    margin-bottom: 5%;
+}
+
+section p{
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+h2{
+    text-align: center;
+}
+
+.profile{
+    margin:10%;
+}
+form dl{
+    text-align: left;
+}
+form dd{
+    margin:  2% 0 10% 0;
+}
+form p{
+    text-align: center;
+    background-color: #fff;
+    padding: 1%;
+    margin: 0 auto;
+    width: 10%;
+}
+
+.must{
+    background-color: #f00;
+    padding: 0 0.5%;
+    margin-left: 3%;
+}
+
+img{
+    margin-top: 30%;
+}

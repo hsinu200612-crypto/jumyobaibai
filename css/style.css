@@ -45,5 +45,6 @@ form p{
 }
 
 img{
-    margin-top: 20%;
+    position: absolute;
+    bottom: 0;
 }
